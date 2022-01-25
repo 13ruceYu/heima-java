@@ -10,7 +10,7 @@ public class PrimitiveType {
         /* 2. short 短整形 2bytes*/
         short sh = 23333;
 
-        /* 3. */
+        /* 3.0 */
 
     }
 }
