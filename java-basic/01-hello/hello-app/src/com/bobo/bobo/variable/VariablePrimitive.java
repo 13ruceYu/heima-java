@@ -1,4 +1,4 @@
-package com.bobo.variable;
+package com.bobo.bobo.variable;
 
 public class VariablePrimitive {
     public static void main(String[] args) {

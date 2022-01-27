@@ -1,4 +1,4 @@
-package com.bobo.hello;
+package com.bobo.bobo.hello;
 
 /**
  * 文档注释

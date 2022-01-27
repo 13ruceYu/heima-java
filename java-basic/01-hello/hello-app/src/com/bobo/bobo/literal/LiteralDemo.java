@@ -1,4 +1,4 @@
-package com.bobo.literal;
+package com.bobo.bobo.literal;
 
 public class LiteralDemo {
     public static void main(String[] args) {

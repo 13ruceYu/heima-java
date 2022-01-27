@@ -1,4 +1,4 @@
-package com.bobo.dataType;
+package com.bobo.bobo.dataType;
 
 public class ReferenceType {
     public static void main(String[] args) {
