@@ -1,2 +1,5 @@
-package com.bobo;public class InfiniteLoop {
+package com.bobo;
+
+public class InfiniteLoop {
+
 }

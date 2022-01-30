@@ -1,4 +1,4 @@
-package com.type.conversion;
+package com.bobo.type;
 
 public class AutoTypeConversion {
     public static void main(String[] args) {
