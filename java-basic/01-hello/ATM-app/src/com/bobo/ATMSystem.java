@@ -24,6 +24,7 @@ public class ATMSystem {
             int command = sc.nextInt();
             switch (command) {
                 case 1:
+                    login(accounts, sc);
                     break;
                 case 2:
                     register(accounts, sc);
@@ -36,11 +37,50 @@ public class ATMSystem {
     }
 
     /**
+     * 完成用户登录
+     *
+     * @param accounts
+     */
+    private static void login(ArrayList<Account> accounts, Scanner sc) {
+        if (accounts.size() == 0) {
+            System.out.println("尚无账号，请先开户");
+            return;
+        }
+        while (true) {
+            System.out.println("请您输入登录卡号：");
+            String cardId = sc.next();
+
+            Account acc = getAccountByCardId(cardId, accounts);
+
+            if (acc == null) {
+                System.out.println("对不起，该卡号不存在");
+            } else {
+                while (true) {
+                    System.out.println("请输入登录密码：");
+                    String password = sc.next();
+
+                    if (acc.getPassword().equals(password)) {
+                        // 登录成功
+                        System.out.println("恭喜" + acc.getUsername() + "登录成功");
+                        showUserCommand(sc);
+                    } else {
+                        System.out.println("密码输入有误，请重新输入。");
+                    }
+                }
+            }
+        }
+    }
+
+    private static void showUserCommand(Scanner sc) {
+    }
+
+    /**
      * 用户开户
      *
      * @param accounts
      */
     private static void register(ArrayList<Account> accounts, Scanner sc) {
+        System.out.println("===========用户开户功能===========");
         // 2. 键盘录入 姓名 密码 确认密码
         System.out.println("请输入开户名称：");
         String name = sc.next();
