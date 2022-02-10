@@ -62,7 +62,7 @@ public class ATMSystem {
                     if (acc.getPassword().equals(password)) {
                         // 登录成功
                         System.out.println("恭喜" + acc.getUsername() + "登录成功");
-                        showUserCommand(sc, acc);
+                        showUserCommand(sc, acc, accounts);
                         return;
                     } else {
                         System.out.println("密码输入有误，请重新输入。");
@@ -72,7 +72,7 @@ public class ATMSystem {
         }
     }
 
-    private static void showUserCommand(Scanner sc, Account acc) {
+    private static void showUserCommand(Scanner sc, Account acc, ArrayList<Account> accounts) {
         while (true) {
             System.out.println("===========用户操作界面============");
             System.out.println("1. 查询账户");
@@ -100,6 +100,8 @@ public class ATMSystem {
                     withdrawMoney(acc, sc);
                     break;
                 case 4:
+                    // 转账
+                    transferMoney(accounts, acc, sc);
                     break;
                 case 5:
                     break;
@@ -111,6 +113,56 @@ public class ATMSystem {
                 default:
                     System.out.println("不支持该命令");
                     break;
+            }
+        }
+    }
+
+    private static void transferMoney(ArrayList<Account> accounts, Account acc, Scanner sc) {
+        // 1. 判断系统中是否有两个及以上账户
+        if(accounts.size() < 2) {
+            System.out.println("系统中暂无其他账号，不支持转账操作");
+            return;
+        }
+
+        // 2. 判断自己账户中是否有钱
+        if (acc.getMoney() ==0) {
+            System.out.println("您的余额为 0，无法转账");
+            return;
+        }
+
+        // 3. 开始转账逻辑
+        while (true) {
+            System.out.println("请输入对方账户的卡号：");
+            String cardId = sc.next();
+            Account account = getAccountByCardId(cardId, accounts);
+            if (account != null) {
+                // 确认姓名操作
+                // 不可为自己卡号
+                if (acc.getCardId().equals(account.getCardId())) {
+                    System.out.println("不可以给自己转账");
+                } else {
+                    String name = "*" + account.getUsername().substring(1);
+                    System.out.println("请确认【" + name + "】的姓氏：");
+                    String preName = sc.next();
+                    if (account.getUsername().startsWith(preName)) {
+                        // 开始转账
+                        System.out.println("请输入转账金额：");
+                        double money = sc.nextDouble();
+                        if (money > acc.getMoney()) {
+                            System.out.println("对比起，账户中没有这么多余额可转，可用余额："+ acc.getMoney());
+                        } else {
+                            acc.setMoney(acc.getMoney() - money);
+                            account.setMoney(account.getMoney() + money);
+                            System.out.println("转账成功");
+                            showAccount(acc);
+                            return;
+                        }
+                    } else {
+                        System.out.println("对不起，姓氏认证失败");
+                    }
+                }
+            } else {
+                System.out.println("抱歉，无法查到卡号对应的用户");
             }
         }
     }
