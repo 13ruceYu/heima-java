@@ -62,7 +62,8 @@ public class ATMSystem {
                     if (acc.getPassword().equals(password)) {
                         // 登录成功
                         System.out.println("恭喜" + acc.getUsername() + "登录成功");
-                        showUserCommand(sc);
+                        showUserCommand(sc, acc);
+                        return;
                     } else {
                         System.out.println("密码输入有误，请重新输入。");
                     }
@@ -71,7 +72,90 @@ public class ATMSystem {
         }
     }
 
-    private static void showUserCommand(Scanner sc) {
+    private static void showUserCommand(Scanner sc, Account acc) {
+        while (true) {
+            System.out.println("===========用户操作界面============");
+            System.out.println("1. 查询账户");
+            System.out.println("2. 存款");
+            System.out.println("3. 取款");
+            System.out.println("4. 转账");
+            System.out.println("5. 修改密码");
+            System.out.println("6. 退出");
+            System.out.println("7. 注销账户");
+            System.out.println("请输入您的操作命令：");
+
+            int command = sc.nextInt();
+
+            switch (command) {
+                case 1:
+                    // 查询账户
+                    showAccount(acc);
+                    break;
+                case 2:
+                    // 存款
+                    depositMoney(acc, sc);
+                    break;
+                case 3:
+                    // 取款
+                    withdrawMoney(acc, sc);
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    System.out.println("退出成功！");
+                    return;
+                case 7:
+                    break;
+                default:
+                    System.out.println("不支持该命令");
+                    break;
+            }
+        }
+    }
+
+    private static void withdrawMoney(Account acc, Scanner sc) {
+        System.out.println("========取款操作========");
+        // 判断是否有钱
+        if (acc.getMoney() > 0) {
+            while (true) {
+                System.out.println("请输入取款金额：");
+                double amount = sc.nextDouble();
+                // 与单次限额比较
+                if (amount > acc.getQuotaMoney()) {
+                    System.out.println("金额大于单次限额 " + acc.getQuotaMoney() +"，请重新输入");
+                } else {
+                    if(acc.getMoney() > amount) {
+                        acc.setMoney(acc.getMoney() - amount);
+                        System.out.println("取款成功");
+                        showAccount(acc);
+                        return;
+                    } else {
+                        System.out.println("余额不足");
+                    }
+                }
+            }
+        } else {
+            System.out.println("余额为 0，请先存入。");
+        }
+    }
+
+    private static void depositMoney(Account acc, Scanner sc) {
+        System.out.println("=========存钱操作=======");
+        System.out.println("请输入存款金额：");
+        double amount = sc.nextDouble();
+        acc.setMoney(acc.getMoney() + amount);
+        System.out.println("存款完成");
+        showAccount(acc);
+    }
+
+    private static void showAccount(Account acc) {
+        System.out.println("==========展示当前账户详情==========");
+        System.out.println("卡号：" + acc.getCardId());
+        System.out.println("用户名：" + acc.getUsername());
+        System.out.println("余额：" + acc.getMoney());
+        System.out.println("当次限额：" + acc.getQuotaMoney());
     }
 
     /**
