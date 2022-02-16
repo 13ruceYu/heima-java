@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app-oop1/app-oop1.iml" filepath="$PROJECT_DIR$/app-oop1/app-oop1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-oop2/app-oop2.iml" filepath="$PROJECT_DIR$/app-oop2/app-oop2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-oop22/app-oop22.iml" filepath="$PROJECT_DIR$/app-oop22/app-oop22.iml" />
       <module fileurl="file://$PROJECT_DIR$/javasepro.iml" filepath="$PROJECT_DIR$/javasepro.iml" />
     </modules>
   </component>
