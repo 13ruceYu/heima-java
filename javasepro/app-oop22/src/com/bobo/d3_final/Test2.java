@@ -13,5 +13,6 @@ public class Test2 {
         // arr = {33,44};
         arr[1] = 32;
         System.out.println(Arrays.toString(arr));
+        System.out.println("墨鱼");
     }
 }
