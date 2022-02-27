@@ -8,5 +8,6 @@ public interface SportsmanInterface {
     String[] NAME_LIST = {"whh", "zks"};
 
     // 抽象方法 public abstract 可以省略不写
+    public abstract void eat();
     void run();
 }
