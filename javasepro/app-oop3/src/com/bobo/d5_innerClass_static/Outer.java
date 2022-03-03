@@ -1,6 +1,9 @@
 package com.bobo.d5_innerClass_static;
 
 public class Outer {
+    public static Number num = 1;
+    private static String ps = "yoo";
+    private String instanceS = "yoo";
     // 学习静态成员内部类
     public static class Inner {
         private String name;
@@ -31,6 +34,9 @@ public class Outer {
 
         public void show() {
             System.out.println("name: " + name);
+            System.out.println(num);
+            System.out.println(ps);
+            // System.out.println(instanceS); err
         }
     }
 }
