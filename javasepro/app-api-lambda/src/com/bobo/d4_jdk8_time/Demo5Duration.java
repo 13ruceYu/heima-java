@@ -14,5 +14,6 @@ public class Demo5Duration {
         Duration dn = Duration.between(birth, now);
         System.out.println(dn);
         System.out.println(dn.toDays());
+        System.out.println("moyu");
     }
 }
