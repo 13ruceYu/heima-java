@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app-api-lambda/app-api-lambda.iml" filepath="$PROJECT_DIR$/app-api-lambda/app-api-lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-collection/app-collection.iml" filepath="$PROJECT_DIR$/app-collection/app-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-collection-map/app-collection-map.iml" filepath="$PROJECT_DIR$/app-collection-map/app-collection-map.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-oop1/app-oop1.iml" filepath="$PROJECT_DIR$/app-oop1/app-oop1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-oop2/app-oop2.iml" filepath="$PROJECT_DIR$/app-oop2/app-oop2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-oop2.0/app-oop2.0.iml" filepath="$PROJECT_DIR$/app-oop2.0/app-oop2.0.iml" />
