@@ -19,7 +19,7 @@ public class Demo4 {
         strings.add("波");
         System.out.println(strings);
 
-        Set<Apple> apples = new TreeSet<>();
+        Set<Apple> apples = new TreeSet<>(((o1, o2) -> o1.getCount() - o2.getCount()));
         Apple a1 = new Apple("red", 11, 12.3);
         Apple a2 = new Apple("blue", 4, 32.3);
         Apple a3 = new Apple("pink", 44, 43.1);
