@@ -3,6 +3,15 @@ package com.bobo.d4_collection_test;
 public class Card {
     private String size;
     private String color;
+    private int index;
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
 
     public String getSize() {
         return size;
@@ -23,9 +32,10 @@ public class Card {
     public Card() {
     }
 
-    public Card(String size, String color) {
+    public Card(String size, String color, int index) {
         this.size = size;
         this.color = color;
+        this.index = index;
     }
 
     @Override
