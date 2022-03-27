@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/app-oop2/app-oop2.iml" filepath="$PROJECT_DIR$/app-oop2/app-oop2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-oop2.0/app-oop2.0.iml" filepath="$PROJECT_DIR$/app-oop2.0/app-oop2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-oop3/app-oop3.iml" filepath="$PROJECT_DIR$/app-oop3/app-oop3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-stream-exception-log/app-stream-exception-log.iml" filepath="$PROJECT_DIR$/app-stream-exception-log/app-stream-exception-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/javasepro.iml" filepath="$PROJECT_DIR$/javasepro.iml" />
     </modules>
   </component>
