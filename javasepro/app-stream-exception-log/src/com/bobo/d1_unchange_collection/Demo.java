@@ -21,6 +21,6 @@ public class Demo {
         Map<String, Integer> map = Map.of("whh", 11, "lsd", 12);
         System.out.println(map);
 
-
+        System.out.println("sql day");
     }
 }
