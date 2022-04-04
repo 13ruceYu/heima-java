@@ -1,6 +1,7 @@
 package com.bobo.mapper;
 
 import com.bobo.pojo.Brand;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -8,6 +9,7 @@ public interface BrandMapper {
     /**
      * 查看所有
      */
+    @Select("select * from tb_brand;")
     List<Brand> selectAll();
 
     /**
@@ -24,4 +26,10 @@ public interface BrandMapper {
     List<Brand> selectByConditionSingle(Brand brand);
 
     void add(Brand brand);
+
+    int update(Brand brand);
+
+    void deleteById(int id);
+
+    void deleteByIds(int[] ids);
 }
