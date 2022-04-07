@@ -9,11 +9,13 @@
         <module name="maven-demo" />
         <module name="tomcat-demo" />
         <module name="servlet-demo" />
+        <module name="request-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maven-demo" target="8" />
       <module name="mybatis-demo" target="8" />
+      <module name="request-demo" target="11" />
       <module name="servlet-demo" target="11" />
       <module name="tomcat-demo" target="11" />
     </bytecodeTargetLevel>

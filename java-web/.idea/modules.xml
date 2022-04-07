@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/java-web.iml" filepath="$PROJECT_DIR$/.idea/java-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/maven-demo/maven-demo.iml" filepath="$PROJECT_DIR$/jdbc/maven-demo/maven-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/request-demo/request-demo.iml" filepath="$PROJECT_DIR$/request-demo/request-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet-demo/servlet-demo.iml" filepath="$PROJECT_DIR$/servlet-demo/servlet-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-demo/tomcat-demo.iml" filepath="$PROJECT_DIR$/tomcat-demo/tomcat-demo.iml" />
     </modules>
