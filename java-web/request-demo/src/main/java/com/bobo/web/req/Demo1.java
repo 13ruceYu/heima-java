@@ -1,4 +1,4 @@
-package com.bobo.web;
+package com.bobo.web.req;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,3 +1,14 @@
-com/bobo/web/Demo1.class
-com/bobo/web/Demo2.class
-com/bobo/web/Demo3.class
+com/bobo/web/req/Demo1.class
+com/bobo/web/RegisterServlet.class
+com/bobo/web/res/Demo1.class
+com/bobo/web/req/Demo2.class
+com/bobo/web/res/Demo4.class
+com/bobo/pojo/User.class
+com/bobo/web/req/Demo3.class
+com/bobo/web/req/Demo5.class
+com/bobo/web/res/Demo2.class
+com/bobo/mapper/UserMapper.class
+com/bobo/web/LoginServlet.class
+com/bobo/util/SqlSessionFactoryUtils.class
+com/bobo/web/res/Demo3.class
+com/bobo/web/req/Demo4.class
