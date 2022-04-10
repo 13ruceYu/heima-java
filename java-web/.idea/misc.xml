@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/jsp-demo" />
     <file type="web" url="file://$PROJECT_DIR$/request-demo" />
     <file type="web" url="file://$PROJECT_DIR$/servlet-demo" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo" />
@@ -13,6 +15,8 @@
         <option value="$PROJECT_DIR$/tomcat-demo/pom.xml" />
         <option value="$PROJECT_DIR$/servlet-demo/pom.xml" />
         <option value="$PROJECT_DIR$/request-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jsp-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-demo/pom.xml" />
       </list>
     </option>
   </component>
