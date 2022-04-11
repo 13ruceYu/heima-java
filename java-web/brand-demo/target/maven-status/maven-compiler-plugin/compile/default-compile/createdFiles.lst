@@ -1,0 +1,5 @@
+com/bobo/web/SelectAllServlet.class
+com/bobo/pojo/Brand.class
+com/bobo/mapper/BrandMapper.class
+com/bobo/util/SqlSessionFactoryUtils.class
+com/bobo/service/BrandService.class
