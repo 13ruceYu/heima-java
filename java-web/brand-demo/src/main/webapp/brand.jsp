@@ -17,7 +17,7 @@
 
 <input type="button" value="add"><br>
 <hr>
-<table border="1" cellspacing="0" width="800"></table>
+<table></table>
     <tr>
         <th>id</th>
         <th>brand_name</th>

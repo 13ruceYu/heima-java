@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jsp-demo" />
-        <module name="brand-demo" />
         <module name="maven-demo" />
         <module name="tomcat-demo" />
-        <module name="servlet-demo" />
         <module name="request-demo" />
+        <module name="jsp-demo" />
+        <module name="brand-demo" />
+        <module name="servlet-demo" />
+        <module name="cookie-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="brand-demo" target="11" />
+      <module name="cookie-demo" target="11" />
       <module name="jsp-demo" target="11" />
       <module name="maven-demo" target="8" />
       <module name="mybatis-demo" target="8" />

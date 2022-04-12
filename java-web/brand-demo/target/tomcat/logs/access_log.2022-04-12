@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [12/Apr/2022:08:44:15 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [12/Apr/2022:08:44:15 +0800] "GET /brand-demo/ HTTP/1.1" 304 - http-bio-80-exec-3 38
+0:0:0:0:0:0:0:1 - - [12/Apr/2022:08:44:20 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1442 http-bio-80-exec-4 1739
