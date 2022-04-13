@@ -25,6 +25,7 @@ public class BrandService {
 
         // 4. call method
         List<Brand> brands = mapper.selectAll();
+        System.out.println(brands);
 
         sqlSession.close();
 

@@ -1,5 +1,9 @@
 /Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/service/BrandService.java
 /Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/pojo/Brand.java
 /Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/web/SelectAllServlet.java
+/Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/mapper/UserMapper.java
+/Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/service/UserService.java
 /Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/util/SqlSessionFactoryUtils.java
 /Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/mapper/BrandMapper.java
+/Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/web/LoginServlet.java
+/Users/yuhongbo/Desktop/code-2022/heima-java/java-web/brand-demo/src/main/java/com/bobo/pojo/User.java

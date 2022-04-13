@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:14:30 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:14:30 +0800] "GET /brand-demo/ HTTP/1.1" 304 - http-bio-80-exec-3 19
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:14:44 +0800] "GET /brand-demo/login.jsp HTTP/1.1" 200 841 http-bio-80-exec-4 712
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:14:44 +0800] "GET /brand-demo/css/login.css HTTP/1.1" 200 1934 http-bio-80-exec-5 4
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:14:44 +0800] "GET /brand-demo/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-80-exec-6 25
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:15:03 +0800] "GET /brand-demo/loginServlet?username=1&password=1 HTTP/1.1" 200 865 http-bio-80-exec-7 704
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:15:22 +0800] "GET /brand-demo/loginServlet?username=whh&password=123 HTTP/1.1" 302 - http-bio-80-exec-8 14
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:15:23 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1687 http-bio-80-exec-9 267
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:25:04 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1684 http-bio-80-exec-1 832
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:25:40 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1684 http-bio-80-exec-3 12
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:28:43 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 500 3611 http-bio-80-exec-1 404
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:23:30:42 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1714 http-bio-80-exec-1 878

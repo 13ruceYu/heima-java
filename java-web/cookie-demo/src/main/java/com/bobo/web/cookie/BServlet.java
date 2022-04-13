@@ -1,4 +1,4 @@
-package com.bobo.web;
+package com.bobo.web.cookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,2 +1,4 @@
-com/bobo/web/BServlet.class
-com/bobo/web/AServlet.class
+com/bobo/web/session/SessionDemo2.class
+com/bobo/web/cookie/AServlet.class
+com/bobo/web/session/SessionDemo1.class
+com/bobo/web/cookie/BServlet.class
