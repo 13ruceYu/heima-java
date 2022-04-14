@@ -26,6 +26,22 @@ public class LoginServlet extends HttpServlet {
 
         // 3. check user
         if (user != null) {
+            // 判断用户是否勾选记住我
+            if ("1".equals(remember)) {
+                // checked send cookie
+                // 1. create cookie
+                Cookie c_username = new Cookie("username", username);
+                Cookie c_password = new Cookie("password", password);
+
+                // config cookie
+                c_username.setMaxAge(60 * 60 * 24 * 7);
+                c_password.setMaxAge(60 * 60 * 24 * 7);
+
+                // 2. send cookie
+                response.addCookie(c_password);
+                response.addCookie(c_username);
+            }
+
             HttpSession session = request.getSession();
             session.setAttribute("user", user);
 
