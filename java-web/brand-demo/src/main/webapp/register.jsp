@@ -48,7 +48,7 @@
                 <td>验证码</td>
                 <td class="inputs">
                     <input name="checkCode" type="text" id="checkCode">
-                    <img src="imgs/a.jpg">
+                    <img src="/brand-demo/checkCodeServlet">
                     <a href="#" id="changeImg">看不清？</a>
                 </td>
             </tr>

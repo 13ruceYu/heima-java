@@ -18,6 +18,21 @@ public class RegisterServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
+        // get user checkCode
+        String checkCode = request.getParameter("checkCode");
+
+        // get system checkCode
+        HttpSession session = request.getSession();
+        String checkCodeGen = (String) session.getAttribute("checkCodeGen");
+
+        // compare
+        if (!checkCodeGen.equals(checkCode)) {
+            request.setAttribute("register_msg", "failed, captcha error");
+            request.getRequestDispatcher("/register.jsp").forward(request, response);
+            // not allow register
+            return;
+        }
+
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);

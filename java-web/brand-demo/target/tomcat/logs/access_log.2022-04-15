@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:41 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:41 +0800] "GET /brand-demo/ HTTP/1.1" 304 - http-bio-80-exec-3 16
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:46 +0800] "GET /brand-demo/login.jsp HTTP/1.1" 200 874 http-bio-80-exec-4 107
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:47 +0800] "GET /brand-demo/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-80-exec-5 16
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:50 +0800] "GET /brand-demo/register.jsp HTTP/1.1" 200 1567 http-bio-80-exec-6 755
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:50 +0800] "GET /brand-demo/imgs/reg_bg_min.jpg HTTP/1.1" 200 389286 http-bio-80-exec-2 12
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:53 +0800] "GET /brand-demo/checkCodeServlet HTTP/1.1" 200 2372 http-bio-80-exec-7 2871
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:56 +0800] "GET /brand-demo/register.jsp HTTP/1.1" 200 1567 http-bio-80-exec-9 2
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:56 +0800] "GET /brand-demo/checkCodeServlet HTTP/1.1" 200 2649 http-bio-80-exec-10 16
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:58 +0800] "GET /brand-demo/register.jsp HTTP/1.1" 200 1567 http-bio-80-exec-10 1
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:19:58 +0800] "GET /brand-demo/checkCodeServlet HTTP/1.1" 200 2469 http-bio-80-exec-10 12
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:30:55 +0800] "GET /brand-demo/register.jsp HTTP/1.1" 200 1567 http-bio-80-exec-1 86
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:30:57 +0800] "GET /brand-demo/checkCodeServlet HTTP/1.1" 200 2278 http-bio-80-exec-3 1643
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:31:11 +0800] "GET /brand-demo/registerServlet?username=yhb&password=11&checkCode=r91 HTTP/1.1" 200 1588 http-bio-80-exec-4 318
+0:0:0:0:0:0:0:1 - - [15/Apr/2022:21:31:11 +0800] "GET /brand-demo/checkCodeServlet HTTP/1.1" 200 2778 http-bio-80-exec-5 17

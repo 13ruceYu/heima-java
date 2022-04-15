@@ -3,8 +3,10 @@ com/bobo/mapper/BrandMapper.class
 com/bobo/web/RegisterServlet.class
 com/bobo/service/BrandService.class
 com/bobo/web/SelectAllServlet.class
+com/bobo/util/CheckCodeUtil.class
 com/bobo/pojo/User.class
 com/bobo/mapper/UserMapper.class
 com/bobo/web/LoginServlet.class
 com/bobo/util/SqlSessionFactoryUtils.class
+com/bobo/web/CheckCodeServlet.class
 com/bobo/service/UserService.class
