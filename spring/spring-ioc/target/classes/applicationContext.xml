@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="userDao" class="com.bobo.dao.impl.UserDaoImpl" init-method="init" destroy-method="destroy"></bean>-->
+    <!--<bean id="userDao" class="com.bobo.factory.StaticFactory" factory-method="getUserDao"></bean>-->
+
+    <!--<bean id="userDaoFactory" class="com.bobo.factory.DynamicFactory"></bean>-->
+    <!--<bean id="userDao" factory-bean="userDaoFactory" factory-method="getUserDao"></bean>-->
+
+    <bean id="userDao" class="com.bobo.dao.impl.UserDaoImpl" init-method="init" destroy-method="destroy"></bean>
+    <bean id="userService" class="com.bobo.service.impl.UserServiceImpl"></bean>
+</beans>

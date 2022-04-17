@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-ioc-demo:war">
+    <output-path>$PROJECT_DIR$/spring-ioc-demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-ioc-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itheima_spring_ioc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-ioc-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
