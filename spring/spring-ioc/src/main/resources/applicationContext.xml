@@ -19,8 +19,8 @@
     <!--    <property name="age" value="11"></property>-->
     <!--</bean>-->
     <bean id="user1" class="com.bobo.domain.User">
-        <property name="name" value="lsd"></property>
-        <property name="addr" value="hz"></property>
+        <property name="name" value="lsd"/>
+        <property name="addr" value="hz"/>
     </bean>
 
     <bean id="userDao" class="com.bobo.dao.impl.UserDaoImpl">
@@ -33,12 +33,20 @@
         </property>
         <property name="userMap">
             <map>
-                <entry key="user1" value-ref="user1"></entry>
+                <entry key="user1" value-ref="user1"/>
             </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="propKey1">value1</prop>
+                <prop key="propKey2">value2</prop>
+            </props>
         </property>
     </bean>
 
     <bean id="userService" class="com.bobo.service.impl.UserServiceImpl">
-        <constructor-arg name="userDao" ref="userDao"></constructor-arg>
+        <constructor-arg name="userDao" ref="userDao"/>
     </bean>
+
+    <import resource="applicationContext-user.xml"/>
 </beans>

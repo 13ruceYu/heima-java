@@ -10,7 +10,8 @@ public class UserController {
         // UserService userService = new UserServiceImpl();
         // userService.save();
         ApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserService userService = (UserService) app.getBean("userService");
+        // UserService userService = (UserService) app.getBean("userService");
+        UserService userService = app.getBean(UserService.class);
         userService.save();
     }
 }
