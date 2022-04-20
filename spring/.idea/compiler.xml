@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-demo" />
         <module name="spring-ioc" />
+        <module name="spring-ioc-anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-ioc" target="8" />
+      <module name="spring-ioc-anno" target="8" />
       <module name="spring-ioc-demo" target="11" />
     </bytecodeTargetLevel>
   </component>
