@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc" />
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc-anno" />
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-ioc-mvc" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-ioc-mvc:war exploded">
+    <output-path>$PROJECT_DIR$/spring-ioc-mvc/target/spring-ioc-mvc-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>spring-ioc-mvc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-ioc-mvc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.18.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spring-ioc-mvc/target/spring-ioc-mvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-ioc-mvc/web/Web" />
+    </root>
+  </artifact>
+</component>
