@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-anno" />
         <module name="spring-ioc-mvc" />
+        <module name="spring_01_quickstart" />
         <module name="spring-ioc-demo" />
         <module name="spring-ioc" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="spring-ioc-anno" target="8" />
       <module name="spring-ioc-demo" target="11" />
       <module name="spring-ioc-mvc" target="8" />
+      <module name="spring_01_quickstart" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
