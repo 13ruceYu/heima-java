@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-ioc-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-ioc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-ioc-mvc/spring-ioc-mvc.iml" filepath="$PROJECT_DIR$/spring-ioc-mvc/spring-ioc-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_01_quickstart/spring_01_quickstart.iml" filepath="$PROJECT_DIR$/spring_01_quickstart/spring_01_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_03_bean_instance/spring_03_bean_instance.iml" filepath="$PROJECT_DIR$/spring_03_bean_instance/spring_03_bean_instance.iml" />
     </modules>
   </component>
 </project>

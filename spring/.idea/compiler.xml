@@ -11,6 +11,7 @@
         <module name="spring_01_quickstart" />
         <module name="spring-ioc-demo" />
         <module name="spring-ioc" />
+        <module name="spring_03_bean_instance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="spring-ioc-demo" target="11" />
       <module name="spring-ioc-mvc" target="8" />
       <module name="spring_01_quickstart" target="8" />
+      <module name="spring_03_bean_instance" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

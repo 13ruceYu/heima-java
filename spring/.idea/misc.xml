@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring-ioc-anno/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ioc-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_03_bean_instance/pom.xml" />
       </list>
     </option>
   </component>

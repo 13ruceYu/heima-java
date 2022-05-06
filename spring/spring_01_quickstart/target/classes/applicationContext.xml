@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" name="daoAlias1 daoAlias2" class="com.bobo.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" name="serviceAlias1 serviceAlias2" class="com.bobo.service.impl.BookServiceImpl"
+          scope="prototype">
+        <!--config relationship of bookDao and bookService-->
+        <property name="bookDao" ref="daoAlias1"/>
+    </bean>
+</beans>
