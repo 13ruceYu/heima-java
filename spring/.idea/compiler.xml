@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-anno" />
         <module name="spring-ioc-mvc" />
+        <module name="spring-ioc" />
         <module name="spring_01_quickstart" />
         <module name="spring-ioc-demo" />
-        <module name="spring-ioc" />
         <module name="spring_03_bean_instance" />
+        <module name="spring_04_bean_lifecycle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="spring-ioc-mvc" target="8" />
       <module name="spring_01_quickstart" target="8" />
       <module name="spring_03_bean_instance" target="8" />
+      <module name="spring_04_bean_lifecycle" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
