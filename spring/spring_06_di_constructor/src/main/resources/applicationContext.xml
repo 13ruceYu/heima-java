@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="com.bobo.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" class="com.bobo.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+    <bean id="userDao" class="com.bobo.dao.impl.UserDaoImpl">
+        <constructor-arg name="database" value="mysql"/>
+        <constructor-arg name="count" value="666"/>
+    </bean>
+
+    <bean id="userService" class="com.bobo.service.impl.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+</beans>
