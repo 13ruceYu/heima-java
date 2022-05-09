@@ -14,6 +14,7 @@
         <module name="spring_01_quickstart" />
         <module name="spring_05_di_setter" />
         <module name="spring-ioc-demo" />
+        <module name="spring_08_di_collection" />
         <module name="spring_03_bean_instance" />
         <module name="spring_04_bean_lifecycle" />
       </profile>
@@ -29,6 +30,7 @@
       <module name="spring_05_di_setter" target="8" />
       <module name="spring_06_di_constructor" target="8" />
       <module name="spring_07_di_autoware" target="8" />
+      <module name="spring_08_di_collection" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
