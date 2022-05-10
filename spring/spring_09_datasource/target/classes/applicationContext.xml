@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd"
+>
+    <!--管理 DruidDataSource 对象-->
+    <!--<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+    <!--    <property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
+    <!--    <property name="url" value="jdbc:mysql://localhost:3306/db1"/>-->
+    <!--    <property name="username" value="root"/>-->
+    <!--    <property name="password" value="892400jj"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="c3p0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+    <!--    <property name="driverClass" value="com.mysql.jdbc.Driver"/>-->
+    <!--    <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/db1"/>-->
+    <!--    <property name="user" value="root"/>-->
+    <!--    <property name="password" value="892400jj"/>-->
+    <!--</bean>-->
+
+    <!--1. 开启 context 命名空间-->
+    <!--2. 使用 context 加载 properties 文件-->
+    <!--<context:property-placeholder location="jdbc.properties"/>-->
+    <context:property-placeholder location="classpath:*.properties"/>
+
+    <!--3. value 中使用 ${} 属性占位符-->
+    <bean id="c3p0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="bookDao" class="com.bobo.dao.impl.BookDaoImpl">
+        <property name="username" value="${jdbc.username}"/>
+    </bean>
+</beans>
