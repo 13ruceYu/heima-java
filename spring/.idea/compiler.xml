@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-ioc-anno" />
         <module name="spring-ioc-mvc" />
-        <module name="spring_06_di_constructor" />
         <module name="spring-ioc" />
         <module name="spring_07_di_autoware" />
+        <module name="spring_11_annotation_bean" />
         <module name="spring_01_quickstart" />
+        <module name="spring_08_di_collection" />
+        <module name="spring_10_container" />
+        <module name="spring-ioc-anno" />
+        <module name="spring_06_di_constructor" />
         <module name="spring_05_di_setter" />
         <module name="spring-ioc-demo" />
-        <module name="spring_08_di_collection" />
         <module name="spring_03_bean_instance" />
         <module name="spring_09_datasource" />
         <module name="spring_04_bean_lifecycle" />
@@ -33,6 +35,8 @@
       <module name="spring_07_di_autoware" target="8" />
       <module name="spring_08_di_collection" target="8" />
       <module name="spring_09_datasource" target="8" />
+      <module name="spring_10_container" target="8" />
+      <module name="spring_11_annotation_bean" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
