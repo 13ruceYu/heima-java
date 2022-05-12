@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/spring_09_datasource/pom.xml" />
         <option value="$PROJECT_DIR$/spring_10_container/pom.xml" />
         <option value="$PROJECT_DIR$/spring_11_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_annotation_thrid_bean_manage/pom.xml" />
       </list>
     </option>
   </component>

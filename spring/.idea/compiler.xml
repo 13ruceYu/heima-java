@@ -11,6 +11,7 @@
         <module name="spring_07_di_autoware" />
         <module name="spring_11_annotation_bean" />
         <module name="spring_01_quickstart" />
+        <module name="spring_15_annotation_thrid_bean_manage" />
         <module name="spring_08_di_collection" />
         <module name="spring_10_container" />
         <module name="spring-ioc-anno" />
@@ -37,6 +38,7 @@
       <module name="spring_09_datasource" target="8" />
       <module name="spring_10_container" target="8" />
       <module name="spring_11_annotation_bean" target="8" />
+      <module name="spring_15_annotation_thrid_bean_manage" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
