@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring_10_container/spring_10_container.iml" filepath="$PROJECT_DIR$/spring_10_container/spring_10_container.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_11_annotation_bean/spring_11_annotation_bean.iml" filepath="$PROJECT_DIR$/spring_11_annotation_bean/spring_11_annotation_bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_15_annotation_thrid_bean_manage/spring_15_annotation_thrid_bean_manage.iml" filepath="$PROJECT_DIR$/spring_15_annotation_thrid_bean_manage/spring_15_annotation_thrid_bean_manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" filepath="$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" />
     </modules>
   </component>
 </project>
