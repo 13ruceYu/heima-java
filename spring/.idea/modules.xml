@@ -21,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" filepath="$PROJECT_DIR$/spring_15_spring_mybatis/spring_15_spring_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_16_spring_junit/spring_16_spring_junit.iml" filepath="$PROJECT_DIR$/spring_16_spring_junit/spring_16_spring_junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_18_aop_quickstart/spring_18_aop_quickstart.iml" filepath="$PROJECT_DIR$/spring_18_aop_quickstart/spring_18_aop_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_20_aop_advice_type/spring_20_aop_advice_type.iml" filepath="$PROJECT_DIR$/spring_20_aop_advice_type/spring_20_aop_advice_type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_21_case_interface_run_speed/spring_21_case_interface_run_speed.iml" filepath="$PROJECT_DIR$/spring_21_case_interface_run_speed/spring_21_case_interface_run_speed.iml" />
     </modules>
   </component>
 </project>

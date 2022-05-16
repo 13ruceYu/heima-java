@@ -16,9 +16,11 @@
         <module name="spring_08_di_collection" />
         <module name="spring_10_container" />
         <module name="spring_15_spring_mybatis" />
+        <module name="spring_20_aop_advice_type" />
         <module name="spring-ioc-anno" />
         <module name="spring_18_aop_quickstart" />
         <module name="spring_06_di_constructor" />
+        <module name="spring_21_case_interface_run_speed" />
         <module name="spring_05_di_setter" />
         <module name="spring-ioc-demo" />
         <module name="spring_03_bean_instance" />
@@ -45,6 +47,8 @@
       <module name="spring_15_spring_mybatis" target="8" />
       <module name="spring_16_spring_junit" target="8" />
       <module name="spring_18_aop_quickstart" target="8" />
+      <module name="spring_20_aop_advice_type" target="8" />
+      <module name="spring_21_case_interface_run_speed" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
