@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/spring_18_aop_quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/spring_20_aop_advice_type/pom.xml" />
         <option value="$PROJECT_DIR$/spring_21_case_interface_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_22_apo_advice_data/pom.xml" />
       </list>
     </option>
   </component>
