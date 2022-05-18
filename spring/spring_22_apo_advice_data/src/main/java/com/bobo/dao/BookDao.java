@@ -1,5 +1,5 @@
 package com.bobo.dao;
 
 public interface BookDao {
-    public String findName(int id);
+    public String findName(int id, String password);
 }
