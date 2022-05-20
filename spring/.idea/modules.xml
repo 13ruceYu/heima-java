@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring_20_aop_advice_type/spring_20_aop_advice_type.iml" filepath="$PROJECT_DIR$/spring_20_aop_advice_type/spring_20_aop_advice_type.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_21_case_interface_run_speed/spring_21_case_interface_run_speed.iml" filepath="$PROJECT_DIR$/spring_21_case_interface_run_speed/spring_21_case_interface_run_speed.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_22_apo_advice_data/spring_22_apo_advice_data.iml" filepath="$PROJECT_DIR$/spring_22_apo_advice_data/spring_22_apo_advice_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_23_case_handle_password/spring_23_case_handle_password.iml" filepath="$PROJECT_DIR$/spring_23_case_handle_password/spring_23_case_handle_password.iml" />
     </modules>
   </component>
 </project>

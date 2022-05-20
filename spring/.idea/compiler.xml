@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc-mvc" />
         <module name="spring-ioc" />
+        <module name="spring_23_case_handle_password" />
         <module name="spring_22_apo_advice_data" />
         <module name="spring_07_di_autoware" />
         <module name="spring_11_annotation_bean" />
@@ -51,6 +52,7 @@
       <module name="spring_20_aop_advice_type" target="8" />
       <module name="spring_21_case_interface_run_speed" target="8" />
       <module name="spring_22_apo_advice_data" target="8" />
+      <module name="spring_23_case_handle_password" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
