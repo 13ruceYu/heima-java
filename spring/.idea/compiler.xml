@@ -10,11 +10,13 @@
         <module name="spring-ioc" />
         <module name="spring_23_case_handle_password" />
         <module name="spring_22_apo_advice_data" />
+        <module name="spring_25_case_transfer_log" />
         <module name="spring_07_di_autoware" />
         <module name="spring_11_annotation_bean" />
         <module name="spring_01_quickstart" />
         <module name="spring_15_annotation_thrid_bean_manage" />
         <module name="spring_16_spring_junit" />
+        <module name="spring_24_case_transfer" />
         <module name="spring_08_di_collection" />
         <module name="spring_10_container" />
         <module name="spring_15_spring_mybatis" />
@@ -53,6 +55,8 @@
       <module name="spring_21_case_interface_run_speed" target="8" />
       <module name="spring_22_apo_advice_data" target="8" />
       <module name="spring_23_case_handle_password" target="8" />
+      <module name="spring_24_case_transfer" target="8" />
+      <module name="spring_25_case_transfer_log" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

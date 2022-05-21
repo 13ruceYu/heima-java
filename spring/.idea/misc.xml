@@ -32,6 +32,8 @@
         <option value="$PROJECT_DIR$/spring_21_case_interface_run_speed/pom.xml" />
         <option value="$PROJECT_DIR$/spring_22_apo_advice_data/pom.xml" />
         <option value="$PROJECT_DIR$/spring_23_case_handle_password/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_24_case_transfer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_25_case_transfer_log/pom.xml" />
       </list>
     </option>
   </component>
