@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc_02_bean_load" />
         <module name="springmvc_01_quickstart" />
+        <module name="springmvc_03_request_mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springmvc_01_quickstart" target="1.5" />
       <module name="springmvc_02_bean_load" target="1.5" />
+      <module name="springmvc_03_request_mapping" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
