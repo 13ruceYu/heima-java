@@ -1,0 +1,18 @@
+package com.bobo.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.stereotype.Controller;
+
+@Configuration
+// @ComponentScan({"com.bobo.dao", "com.bobo.service"})
+@ComponentScan(
+        value="com.bobo",
+        excludeFilters = @ComponentScan.Filter(
+                type = FilterType.ANNOTATION,
+                classes = Controller.class
+        )
+)
+public class SpringConfig {
+}
