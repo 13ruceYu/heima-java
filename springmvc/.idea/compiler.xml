@@ -9,12 +9,16 @@
         <module name="springmvc_02_bean_load" />
         <module name="springmvc_01_quickstart" />
         <module name="springmvc_03_request_mapping" />
+        <module name="springmvc_04_request_param" />
+        <module name="springmvc_06_rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springmvc_01_quickstart" target="1.5" />
       <module name="springmvc_02_bean_load" target="1.5" />
       <module name="springmvc_03_request_mapping" target="1.5" />
+      <module name="springmvc_04_request_param" target="1.5" />
+      <module name="springmvc_06_rest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
