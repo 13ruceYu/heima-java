@@ -14,7 +14,6 @@
           <element id="module-output" name="springmvc_06_rest" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.19.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.19.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.19.RELEASE" />

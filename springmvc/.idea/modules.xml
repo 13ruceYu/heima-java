@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc_03_request_mapping/springmvc_03_request_mapping.iml" filepath="$PROJECT_DIR$/springmvc_03_request_mapping/springmvc_03_request_mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc_04_request_param/springmvc_04_request_param.iml" filepath="$PROJECT_DIR$/springmvc_04_request_param/springmvc_04_request_param.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc_06_rest/springmvc_06_rest.iml" filepath="$PROJECT_DIR$/springmvc_06_rest/springmvc_06_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_07_rest_case/springmvc_07_rest_case.iml" filepath="$PROJECT_DIR$/springmvc_07_rest_case/springmvc_07_rest_case.iml" />
     </modules>
   </component>
 </project>
