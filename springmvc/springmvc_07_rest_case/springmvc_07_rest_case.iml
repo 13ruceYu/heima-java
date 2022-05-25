@@ -31,13 +31,16 @@
     <orderEntry type="jdk" jdkName="corretto-1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.15" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.15" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.1.19.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
   </component>
 </module>
