@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc_07_rest_case" />
         <module name="springmvc_02_bean_load" />
+        <module name="springmvc_08_ssm" />
         <module name="springmvc_01_quickstart" />
         <module name="springmvc_03_request_mapping" />
         <module name="springmvc_04_request_param" />
@@ -21,6 +22,7 @@
       <module name="springmvc_04_request_param" target="1.5" />
       <module name="springmvc_06_rest" target="1.5" />
       <module name="springmvc_07_rest_case" target="1.5" />
+      <module name="springmvc_08_ssm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
