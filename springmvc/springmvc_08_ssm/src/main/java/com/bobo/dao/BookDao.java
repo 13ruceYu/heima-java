@@ -16,10 +16,10 @@ public interface BookDao {
     @Update("update tbl_book set type=#{type}, name=#{name}, description=#{description} where id=#{id}")
     public void update(Book book);
 
-    @Delete("delete from table_book where id=#{id}}")
+    @Delete("delete from table_book where id=#{id}")
     public void delete(Integer id);
 
-    @Select("select * from tbl_book where id={id}")
+    @Select("select * from tbl_book where id=#{id}")
     public Book getById(Integer id);
 
     @Select("select * from tbl_book")
