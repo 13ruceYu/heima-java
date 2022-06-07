@@ -9,12 +9,12 @@ public class Result {
     public Result() {
     }
 
-    public Result(Object data, Integer code) {
+    public Result(Integer code, Object data) {
         this.data = data;
         this.code = code;
     }
 
-    public Result(Object data, Integer code, String msg) {
+    public Result(Integer code, Object data, String msg) {
         this.data = data;
         this.code = code;
         this.msg = msg;
