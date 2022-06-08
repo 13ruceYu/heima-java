@@ -1,6 +1,8 @@
 package com.bobo.controller;
 
 import com.bobo.domain.Book;
+import com.bobo.exception.BusinessException;
+import com.bobo.exception.SystemException;
 import com.bobo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -33,12 +35,21 @@ public class BookController {
 
     @GetMapping("/{id}")
     public Result getById(@PathVariable Integer id) {
-        int i = 1 / 0; // 异常测试
-        Book book = bookService.getById(id);
-        Integer code = book != null ? Code.GET_OK : Code.GET_ERR;
-        String msg = book != null ? "" : "数据查询失败，请重试。";
+        if (id == 1) {
+            throw new BusinessException(Code.BUSINESS_ERR, "搞事儿？");
+        }
 
-        return new Result(code, book, msg);
+        try {
+            int i = 1 / 0; // 异常测试
+            Book book = bookService.getById(id);
+            Integer code = book != null ? Code.GET_OK : Code.GET_ERR;
+            String msg = book != null ? "" : "数据查询失败，请重试。";
+
+            return new Result(code, book, msg);
+        } catch (Exception e) {
+            throw new SystemException(Code.SYSTEM_ERR, "服务区访问超时");
+        }
+
     }
 
     @GetMapping
