@@ -20,6 +20,6 @@ public class SpringMvcSupport extends WebMvcConfigurationSupport {
 
     @Override
     protected void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(projectInterceptor).addPathPatterns("/books");
+        registry.addInterceptor(projectInterceptor).addPathPatterns("/books", "/books/*");
     }
 }

@@ -1,5 +1,7 @@
 com/bobo/controller/ProjectExceptionAdvice.class
+com/bobo/controller/interceptor/ProjectInterceptor.class
 com/bobo/controller/Result.class
 com/bobo/exception/SystemException.class
+com/bobo/config/SpringMvcSupport.class
 com/bobo/controller/Code.class
 com/bobo/exception/BusinessException.class
