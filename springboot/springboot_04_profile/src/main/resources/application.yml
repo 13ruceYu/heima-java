@@ -1,0 +1,29 @@
+# set env
+spring:
+  profiles:
+    active: test
+
+---
+
+# dev env
+spring:
+  profiles: dev
+server:
+  port: 80
+
+---
+
+# production env
+spring:
+  profiles: pro
+server:
+  port: 81
+
+---
+
+# test env
+spring:
+  profiles: test
+server:
+  port: 82
+
