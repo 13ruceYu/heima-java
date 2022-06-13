@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_01_quickstart" />
         <module name="springboot_04_profile" />
         <module name="springboot_08_mybatis" />
+        <module name="springboot_09_ssm" />
+        <module name="springboot_01_quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_01_quickstart" target="1.8" />
       <module name="springboot_04_profile" target="1.8" />
       <module name="springboot_08_mybatis" target="1.8" />
+      <module name="springboot_08_mybatis (1)" target="1.8" />
+      <module name="springboot_09_ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +25,8 @@
       <module name="springboot_01_quickstart" options="-parameters" />
       <module name="springboot_04_profile" options="-parameters" />
       <module name="springboot_08_mybatis" options="-parameters" />
+      <module name="springboot_08_mybatis (1)" options="-parameters" />
+      <module name="springboot_09_ssm" options="-parameters" />
     </option>
   </component>
 </project>

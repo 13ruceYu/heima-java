@@ -6,10 +6,11 @@
         <option value="$PROJECT_DIR$/springboot_01_quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_04_profile/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_08_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_09_ssm/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
