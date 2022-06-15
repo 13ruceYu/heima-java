@@ -1,5 +1,7 @@
 package com.bobo;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.bobo.dao.BookDao;
 import com.bobo.domain.Book;
 import org.junit.jupiter.api.Test;
@@ -29,6 +31,18 @@ class Mybatisplus01QuickstartApplicationTests {
         book.setId(11);
 
         bookDao.insert(book);
+    }
+
+    @Test
+    void getByPage() {
+        IPage page = new Page(1, 2);
+        bookDao.selectPage(page, null);
+        System.out.println("当前页：" + page.getCurrent());
+        System.out.println("每页显示量：" + page.getSize());
+        System.out.println("一共多少页：" + page.getPages());
+        System.out.println("一共多少条数据：" + page.getTotal());
+
+        System.out.println("当前分页数据：" + page.getRecords());
     }
 
 }
