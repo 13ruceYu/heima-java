@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ddc45de-02c2-4211-8d1c-91d26067891e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/src/main/java/com/bobo/Mybatisplus01QuickstartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/src/main/java/com/bobo/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/src/main/java/com/bobo/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/src/test/java/com/bobo/Mybatisplus01QuickstartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/target/classes/com/bobo/Mybatisplus01QuickstartApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/target/classes/com/bobo/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/target/classes/com/bobo/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatisplus/mybatisplus_01_quickstart/target/test-classes/com/bobo/Mybatisplus01QuickstartApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2AWmFrWCQ9jYkWXn3jO3SKf1J2e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Springboot09SsmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_09_ssm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bobo.Springboot09SsmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ddc45de-02c2-4211-8d1c-91d26067891e" name="Changes" comment="" />
+      <created>1655133615654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655133615654</updated>
+      <workItem from="1655133617256" duration="893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
