@@ -43,6 +43,7 @@ class Mybatisplus01QuickstartApplicationTests {
         System.out.println("一共多少条数据：" + page.getTotal());
 
         System.out.println("当前分页数据：" + page.getRecords());
+        System.out.println("新项目数据库环境搭建");
     }
 
 }
